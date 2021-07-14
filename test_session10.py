@@ -30,7 +30,7 @@ def test_readme_contents():
     assert len(readme_words) >= 100, "Make your SESSION10_README.md file interesting! Add atleast 100 words"
 
 def test_function_name_had_cap_letter():
-    functions = inspect.getmembers(session9, inspect.isfunction)
+    functions = inspect.getmembers(session10_Polygon, inspect.isfunction)
     for function in functions:
         #print(f"Name:{function}")
         assert len(re.findall('([A-Z])', function[0])) == 0, "You have used Capital letter(s) in your function names"
