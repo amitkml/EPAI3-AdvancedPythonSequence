@@ -4,9 +4,9 @@ Created on Mon Jul 12 23:11:54 2021
 
 @author: AKayal
 """
-import session10
+# import session10
 import session10_CustomPolygonSeq
-from session10 import *
+# from session10 import *
 from session10_CustomPolygonSeq import *
 from datetime import datetime
 import pytest
@@ -16,6 +16,9 @@ import time
 import inspect
 import os
 import re
+import session10_Polygon
+from session10_Polygon import *
+
 
 def test_readme_exists():
     assert os.path.isfile("README.md"), "SESSION10_README.md file missing!"
